@@ -1,0 +1,292 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pre-brand-menu {
+  display: inline-flex;
+  list-style: none;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  padding-top: 1px;
+}
+
+.pre-brand-item {
+  margin-right: 11px;
+}
+
+.pre-brand-item a svg:hover {
+  fill: gray;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+  #header__bar {
+    display: none;
+  }
+  .logo {
+    top: 0px;
+  }
+}
+
+#header__bar {
+  height: 36px;
+}
+
+.nav-link {
+  padding-top: 22px;
+}
+
+#list-right {
+  float: right;
+  position: relative;
+  top: 7px;
+}
+#list-right a {
+  font-size: 15px;
+}
+
+#list-right a:hover {
+  color: silver;
+  cursor: pointer;
+}
+
+.logoContainer {
+  display: inline-flex;
+}
+
+.logo {
+  position: absolute;
+  left: 40px;
+}
+.logo a svg:hover {
+  fill: silver;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+}
+
+/* banner */
+.banner {
+  padding: 0 8px;
+  margin: 0 48px 0 48px;
+}
+
+#side_picture {
+  position: absolute;
+  top: 24px;
+  bottom: 24px;
+  right: 16px;
+  max-height: 310px;
+  writing-mode: vertical-rl;
+  max-width: 40px;
+}
+
+.banner__container {
+  display: flex;
+  justify-content: center;
+  margin: 0 0px;
+}
+
+.banner__item {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  padding: 0 8px;
+}
+
+.banner__wrapper {
+  overflow: hidden;
+}
+
+.banner__video {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: block;
+  z-index: -1;
+}
+
+.banner__img-wrapper {
+  width: 100%;
+}
+
+.twin-banner .banner__img-wrapper {
+  height: 700px;
+}
+
+.banner__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.banner__link {
+  position: absolute;
+}
+
+.banner__caption {
+  margin-top: 40px;
+  font-size: var(--size-large);
+}
+
+.banner__caption--inner {
+  position: absolute;
+  text-align: left;
+  left: 40px;
+  bottom: 36px;
+}
+
+.banner__title {
+  margin-bottom: 16px;
+  font-weight: var(--weight-bold);
+  white-space: pre-wrap;
+}
+
+.banner__title--white {
+  color: var(--color-white);
+}
+
+.banner__title--larger {
+  font-size: var(--size-mega);
+  font-family: var(--font-futura);
+  font-weight: var(--weight-extra-bold);
+}
+
+.banner__btn {
+  display: inline-block;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-size: var(--size-medium);
+  font-weight: 500;
+  height: 40px;
+  padding: 8px 28px;
+  border-radius: 25px;
+  margin: 6px 6px 0 0;
+}
+
+.banner__btn--white {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.banner__btn:hover {
+  opacity: 0.75;
+}
+
+.caption--wrapper {
+  width: 70%;
+}
+
+.caption--wrapper .banner__title {
+  line-height: 1.1;
+}
+
+#_button {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#_button:hover {
+  background-color: silver;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .banner__video {
+    width: unset;
+  }
+
+  .slidelist__header {
+    margin: 0 12px;
+  }
+
+  .slidelist__list {
+    left: 12px;
+  }
+  #_button {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #video_text {
+    font-size: small;
+  }
+
+  .slidelist__btn {
+    width: 70px;
+  }
+
+  .twin-banner .banner__img-wrapper {
+    height: 500px;
+    margin-bottom: 8px;
+  }
+}
+
+.pre-desktop-menu-item.is-focused .pre-desktop-menu-dropdown {
+  transform: scaleY(1);
+  opacity: 1;
+  visibility: visible;
+  transition: transform 0.25s ease, opacity 0ms, visibility 0ms;
+}
+
+.navbar__container {
+  display: flex;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
