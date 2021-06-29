@@ -290,3 +290,8 @@ body {
   border-bottom: 2px solid black;
   cursor: pointer;
 }
+
+#Jordan {
+  position: relative;
+  right: 2px;
+}

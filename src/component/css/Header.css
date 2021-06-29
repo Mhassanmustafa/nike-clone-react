@@ -1,0 +1,100 @@
+.header__nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 40px;
+  float: right;
+}
+
+.header__option {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 12px;
+  padding-right: 5px;
+  font-weight: 541;
+  font-size: 12px;
+  height: 69%;
+  right: 5px;
+}
+
+.header__option:hover p {
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.header__help-nav {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  cursor: default;
+  padding: 0;
+  width: 240px;
+  height: 280px;
+  right: 0;
+  top: 36px;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.header__help-nav--open {
+  transition: all 0.3s ease-out;
+  visibility: visible;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  z-index: 2;
+}
+
+.header__help-nav--close {
+  transition: all 0.3s ease-out;
+  visibility: hidden;
+  transform: translate3d(0, -20px, 0);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.header__title {
+  cursor: pointer;
+  width: 80%;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.header__text {
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.5;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.header__text:hover {
+  opacity: 1;
+}
+
+.headerBorder {
+  font-size: 12px;
+  height: 20px;
+  margin-left: 4px;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+
+.header__List {
+  all: unset;
+  font-weight: 100;
+}
+
+#joinUs {
+  padding-left: 12px;
+  padding-right: 3px;
+}
+
+#help {
+  padding-right: 3px;
+}
