@@ -41,13 +41,6 @@ class NikeHeader extends Component {
                 </a>
               </li>
             </ul>
-            {/* <div id="list-right">
-              <a>Help</a>
-              <span className="ml1-sm mr1-sm body-3">|</span>
-              <a>Join Us</a>
-              <span className="ml1-sm mr1-sm body-3">|</span>
-              <a>Sign In</a>
-            </div> */}
             <div className="header__nav">
               <span className="header__option" id="help">
                 <p

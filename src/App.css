@@ -96,7 +96,8 @@
 
 .logo {
   position: absolute;
-  left: 40px;
+  left: 48px;
+  top: 36px;
 }
 .logo a svg:hover {
   fill: silver;
