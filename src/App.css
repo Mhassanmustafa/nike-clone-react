@@ -110,8 +110,8 @@ body {
 
 /* banner */
 .banner {
-  padding: 0 8px;
-  margin: 0 48px 0 48px;
+  /* padding: 0 8px; */
+  /* margin: 0 48px 0 48px; */
 }
 
 #side_picture {
@@ -125,20 +125,25 @@ body {
 }
 
 .banner__container {
-  display: flex;
   justify-content: center;
-  margin: 0 0px;
+  margin: 0 10px;
 }
 
 .banner__item {
-  position: relative;
-  margin: 0;
+  /* position: relative;
+
   width: 100%;
-  padding: 0 8px;
+  padding: 0 8px; */
 }
 
 .banner__wrapper {
   overflow: hidden;
+}
+
+#banner__Image {
+  position: relative;
+  top: 20px;
+  right: 7px;
 }
 
 .banner__video {

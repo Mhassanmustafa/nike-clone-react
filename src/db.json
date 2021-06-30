@@ -1,28 +1,116 @@
 {
-    "topMenu": [
-      {
-        "id": 1,
-        "name": "New Releases"
-      },
-      {
-        "id": 2,
-        "name": "Men"
-      },
-      {
-        "id": 3,
-        "name": "Women"
-      },
-      {
-        "id": 4,
-        "name": "Kids"
-      },
-      {
-        "id": 5,
-        "name": "Sales"
-      },
-      {
-        "id": 6,
-        "name": "Collections"
-      }
-    ]
-  }
+  "topMenu": [
+    {
+      "id": 1,
+      "name": "New Releases",
+      "dropDown": [
+        {
+          "heading": "Feature",
+          "options": [
+            { "id": 1, "title": "Shop All New Arrivals" },
+            { "id": 2, "title": "Member Days" },
+            { "id": 3, "title": "Bestsellers" },
+            { "id": 4, "title": "SNKRS Launch Calendar" },
+            { "id": 5, "title": "National Teams Collection" }
+          ]
+        },
+        {
+          "heading": "New For Men",
+          "options": [
+            { "id": 1, "title": "Shoes" },
+            { "id": 2, "title": "Clothing" },
+            { "id": 3, "title": "Equipment" },
+            { "id": 4, "title": "Shop all New Men's" }
+          ]
+        },
+        {
+          "heading": "New For Women",
+          "options": [
+            { "id": 1, "title": "Shoes" },
+            { "id": 2, "title": "Clothing" },
+            { "id": 3, "title": "Equipment" },
+            { "id": 4, "title": "Shop all New Women's" }
+          ]
+        },
+        {
+          "heading": "New For Kids",
+          "options": [
+            { "id": 1, "title": "Boys' Shoes" },
+            { "id": 2, "title": "Boys' Clothing" },
+            { "id": 3, "title": "Girls' Shoes" },
+            { "id": 4, "title": "Girls' Clothing" },
+            { "id": 5, "title": "Shop All New Kids'" }
+          ]
+        },
+        {
+          "heading": "Shop By Brand",
+          "options": [
+            { "id": 1, "title": "Nike SportsWear" },
+            { "id": 2, "title": "NikeLab" },
+            { "id": 3, "title": "Jordan" },
+            { "id": 4, "title": "Nike SB" },
+            { "id": 5, "title": "ACG" },
+            { "id": 6, "title": "Nike Pro" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Men"
+    },
+    {
+      "id": 3,
+      "name": "Women"
+    },
+    {
+      "id": 4,
+      "name": "Kids"
+    },
+    {
+      "id": 5,
+      "name": "Sale"
+    },
+    {
+      "id": 6,
+      "name": "Collections"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "span": "",
+      "para": " We've extended our returns period to 60 days. ",
+      "Link": "Learn more",
+      "url": "#"
+    },
+    {
+      "id": 2,
+      "span": "",
+      "para": "Just Landed: The Nike App. ",
+      "Link": "Learn more",
+      "url": "#"
+    },
+    {
+      "id": 3,
+      "span": "Students Now Get 10% Off",
+      "para": "",
+      "Link": "Learn more",
+      "url": "#"
+    },
+    {
+      "id": 4,
+      "span": "",
+      "para": "COVID-19: Information about Nike stores and deliveries. ",
+      "Link": "View Here",
+      "url": "#"
+    },
+    {
+      "id": 5,
+      "span": "Up to 30% Off",
+      "para": "The end of season sale is on. ",
+      "Link": "Shop",
+      "url": "#"
+    }
+  ]
+}

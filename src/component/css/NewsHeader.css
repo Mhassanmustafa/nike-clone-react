@@ -1,0 +1,28 @@
+.news__NavBar {
+  margin-top: 4px;
+}
+
+.News__Header_p {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 2;
+  margin-right: 17px;
+  margin-top: 3px;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+  font-weight: 500;
+}
+.News__Header_p--active-span {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 2;
+  margin-right: 17px;
+  margin-top: -4px;
+}
+
+.NewsHeader__span {
+  margin-left: -16px;
+}
