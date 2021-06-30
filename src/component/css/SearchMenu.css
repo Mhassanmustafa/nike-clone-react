@@ -5,7 +5,8 @@
   */
   position: absolute;
   top: -6px;
-  right: calc(100% - 907.9px);
+  /* right: calc(100% - 907.9px); */
+  right: calc(100% - 1015.9px);
 }
 
 .nav-item {

@@ -13,6 +13,7 @@ class SearchMenu extends Component {
       data: db,
       logoHover: false,
       openSearch: false,
+      openDropDown: false,
     };
   }
   render() {
