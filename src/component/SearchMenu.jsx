@@ -54,7 +54,6 @@ class SearchMenu extends Component {
             </button>
             <div
               className="collapse navbar-collapse"
-              style={{ justifyContent: "center", height: "40px" }}
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav" id="search__Menu">

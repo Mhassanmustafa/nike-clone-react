@@ -3,12 +3,18 @@
   top: 1px;
   right: calc(100% - 1321.5px);
   */
-  position: absolute;
+  /* position: absolute; */
   /* top: -6px; */
-  top: -10%;
-  right: 32.7%;
+  /* top: -10%;
+  right: 32.7%; */
   /* right: calc(100% - 907.9px); */
   /* right: calc(100% - 1015.9px); */
+  justify-content: center;
+}
+
+#navbarSupportedContent {
+  justify-content: center;
+  height: 40px;
 }
 
 .nav-item {
