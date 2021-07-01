@@ -41,8 +41,10 @@
   display: inline-flex;
   list-style: none;
   position: absolute;
-  top: 5px;
-  left: 10px;
+  /* top: 5px; */
+  top: 0.8%;
+  /* left: 10px; */
+  left: 0.74%;
   padding-top: 1px;
 }
 
@@ -142,8 +144,9 @@ body {
 
 #banner__Image {
   position: relative;
-  top: 20px;
-  right: 7px;
+  /* top: 16px; */
+  /* right: 0px; */
+  top: 1rem;
 }
 
 .banner__video {

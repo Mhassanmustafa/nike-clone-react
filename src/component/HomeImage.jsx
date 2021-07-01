@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Image from "./Images/nike-just-do-it.jpg";
+// import Image from "./Images/nike-just-do-it.jpg";
+import "./css/HomeImage.css";
 
 class HomeImage extends Component {
   constructor(props) {
@@ -13,14 +14,30 @@ class HomeImage extends Component {
           <div className="banner__container">
             <div className="banner__item">
               <div className="banner__wrapper">
-                {/* <h1>hello</h1> */}
                 <img
                   className="img-fluid"
                   id="banner__Image"
-                  src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_1237,c_limit/3970e816-b2a3-440e-b2e3-2df925432ecf/nike-just-do-it.jpg"
-                  alt=""
-                  srcset=""
+                  src={this.props.data.imageUrl}
                 />
+
+                <figcaption>
+                  <div className="figure__Caption">
+                    <p className="headline-5 text-color-primary-dark">
+                      {this.props.data.headline}
+                    </p>
+                    <p className="display-2 text-color-primary-dark">
+                      {this.props.data.title}
+                    </p>
+                    <div className="hasText">
+                      <a href="#" className="caption__button">
+                        {this.props.data.b1Text}
+                      </a>
+                      <a href="#" className="caption__button">
+                        {this.props.data.b2Text}
+                      </a>
+                    </div>
+                  </div>
+                </figcaption>
               </div>
             </div>
           </div>

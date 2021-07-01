@@ -4,9 +4,11 @@
   right: calc(100% - 1321.5px);
   */
   position: absolute;
-  top: -6px;
+  /* top: -6px; */
+  top: -10%;
+  right: 32.7%;
   /* right: calc(100% - 907.9px); */
-  right: calc(100% - 1015.9px);
+  /* right: calc(100% - 1015.9px); */
 }
 
 .nav-item {
@@ -16,8 +18,10 @@
 
 #search__header__icon {
   position: absolute;
-  right: 61px;
-  top: 18px;
+  /* right: 44px; */
+  right: 3.29%;
+  /* top: 18px; */
+  top: 32%;
   display: flex;
 }
 

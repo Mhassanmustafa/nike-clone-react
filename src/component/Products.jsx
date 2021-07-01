@@ -20,36 +20,46 @@ class Product extends Component {
   render() {
     return (
       <div className="carousel">
-        <p className="carousel__title">The Latest & Greatest</p>
+        <p className="carousel__title">{this.props.data.title}</p>
         <div className="carousel__container" ref={this.container_input}>
-          <div
-            className="carousel__button_container"
-            onClick={() => this.handleScroll(-450)}
-          >
-            <ArrowBackIosIcon
-              className="carousel__button"
-              style={{ fontSize: 16 }}
-            />
-          </div>
+          {this.props.data.products && this.props.data.products.length > 0
+            ? this.props.data.products.map((value) => {
+                return <Item data={value} />;
+              })
+            : null}
 
-          <div
-            className="carousel__button_container carousel__button_container--right"
-            onClick={() => this.handleScroll(450)}
-          >
-            <ArrowForwardIosIcon
-              className="carousel__button"
-              style={{ fontSize: 16 }}
-            />
-          </div>
-
-          <div className="carousel__hideScrollbar"> </div>
-
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
+          {this.props.data.products && this.props.data.products.length > 3 ? (
+            <>
+              <div
+                className="carousel__button_container"
+                onClick={() => this.handleScroll(-450)}
+              >
+                <ArrowBackIosIcon
+                  className="carousel__button"
+                  style={{
+                    fontSize: 38,
+                    position: "absolute",
+                    left: "5.5rem",
+                    top: "-18.8rem",
+                  }}
+                />
+              </div>
+              <div
+                className="carousel__button_container carousel__button_container--right"
+                onClick={() => this.handleScroll(450)}
+              >
+                <ArrowForwardIosIcon
+                  className="carousel__button"
+                  style={{
+                    fontSize: 38,
+                    position: "absolute",
+                    right: "5.5rem",
+                    top: "-18.8rem",
+                  }}
+                />
+              </div>
+            </>
+          ) : null}
         </div>
       </div>
     );

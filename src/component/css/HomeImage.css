@@ -1,0 +1,41 @@
+.display-2 {
+  font-size: 48px;
+  line-height: 0.333333;
+  font-family: "nikeFont", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -2.9px;
+  position: relative;
+  right: 0.2%;
+}
+
+.text-color-primary-dark {
+  color: #111;
+}
+.headline-5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 1px;
+  padding-top: 0.2%;
+}
+
+.figure__Caption {
+  /* margin-top: 48px */
+  margin-top: 3.7%;
+}
+
+.caption__button {
+  padding-top: 10px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 27px;
+  border-radius: 20px;
+  background: #111;
+  color: #fff;
+  margin-right: 0.4%;
+}
+
+.hasText {
+  padding: 2%;
+}

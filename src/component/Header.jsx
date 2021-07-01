@@ -12,7 +12,7 @@ class NikeHeader extends Component {
   render() {
     return (
       <>
-        <div className="container-fluid" style={{ backgroundColor: "#f5f5f5" }}>
+        <div className="" style={{ backgroundColor: "#f5f5f5" }}>
           <div id="header__bar">
             <ul className="pre-brand-menu">
               <li className="pre-brand-item">

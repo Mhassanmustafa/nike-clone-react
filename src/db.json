@@ -112,5 +112,45 @@
       "Link": "Shop",
       "url": "#"
     }
-  ]
+  ],
+  "homeTopDiv": {
+    "imageUrl": "https://static.nike.com/a/images/f_auto/dpr_1.0/w_1237,c_limit/3970e816-b2a3-440e-b2e3-2df925432ecf/nike-just-do-it.jpg",
+    "headline": "New values. New goals. New OMG!!!",
+    "title": "NEW FOOTBALL",
+    "b1Text": "Shop",
+    "b2Text": "Learn More"
+  },
+  "displayProducts": {
+    "title": "Gear Up",
+    "products": [
+      {
+        "id": 1,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/cc7f9ed1-bb4b-4a8a-944d-586c7e05a03a/blazer-mid-77-vintage-shoe-3219Cm.png",
+        "title": "Nike Blazer Mid '77 Vintage",
+        "price": "$135",
+        "description": "Women's Shoe"
+      },
+      {
+        "id": 2,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/71dd1275-62fb-449e-a34a-c0c01c10688d/blazer-low-77-shoe-S3k4n9.png",
+        "title": "Nike Blazer Low '77",
+        "price": "$115",
+        "description": "Women's Shoe"
+      },
+      {
+        "id": 2,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/5804adcd-94a4-41f6-b29b-509a07e86d47/blazer-low-77-shoe-S3k4n9.png",
+        "title": "Nike Blazer Low '77",
+        "price": "$115",
+        "description": "Women's Shoe"
+      },
+      {
+        "id": 1,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/3bdcf8a1-b301-4444-8dfd-92601bbf42ac/blazer-mid-77-vintage-shoe-GpF2lM.png",
+        "title": "Nike Blazer Mid '77 Vintage",
+        "price": "$135",
+        "description": "Women's Shoe"
+      }
+    ]
+  }
 }

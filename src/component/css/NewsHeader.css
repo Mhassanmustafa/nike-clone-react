@@ -6,7 +6,7 @@
   display: inline-block;
   font-size: 12px;
   line-height: 2;
-  margin-right: 17px;
+  margin-right: 3px;
   margin-top: 3px;
 }
 
@@ -16,13 +16,16 @@ a {
   font-weight: 500;
 }
 .News__Header_p--active-span {
-  display: inline-block;
+  display: flow-root;
   font-size: 12px;
   line-height: 2;
-  margin-right: 17px;
+  margin-right: 0px;
   margin-top: -4px;
 }
 
 .NewsHeader__span {
-  margin-left: -16px;
+  margin-left: 0px;
+  font-size: 14.06px;
+  position: relative;
+  bottom: 3px;
 }

@@ -19,10 +19,7 @@ class SearchMenu extends Component {
   render() {
     return (
       <header>
-        <div
-          className="logoContainer d-flex justify-content-center align-items-center"
-          data-var="swooshLogo"
-        >
+        <div className="logoContainer d-flex justify-content-center align-items-center">
           <div className="logo">
             <a
               aria-label="Nike Home Page"

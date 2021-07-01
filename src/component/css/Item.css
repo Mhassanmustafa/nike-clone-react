@@ -1,16 +1,20 @@
 .item {
   display: inline-block;
   flex-direction: column;
-  margin-left: 20px;
+  position: relative;
+  margin-left: 1.5%;
   /* margin-left: 4%; */
-  width: 30%;
+  /* padding-left: 3%; */
+  width: 29.6%;
+  left: 2.6%;
 }
 
 .item__image {
   display: flex;
   object-fit: cover;
   width: 100%;
-  max-height: 430px;
+  height: 25rem;
+  /* max-height: 770pc; */
   transition: opacity 0.35s ease-out;
   transition-property: opacity;
   transition-duration: 0.35s;
@@ -33,10 +37,19 @@
 .item__title {
   display: flex;
   font-weight: 500;
-  margin-bottom: 8px;
+  margin-bottom: 0.1%;
+  margin-left: 0.1%;
   justify-content: space-between;
+  top: -1px;
 }
 
 .item__text {
   opacity: 0.5;
+  text-align: left;
+  position: relative;
+  bottom: 2px;
+}
+
+.item__price {
+  margin-right: 1.1%;
 }

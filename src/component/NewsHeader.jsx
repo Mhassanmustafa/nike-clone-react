@@ -9,7 +9,11 @@ class NewsHeader extends Component {
     return (
       <section
         className="news__NavBar"
-        style={{ backgroundColor: "#f5f5f5", height: "54px" }}
+        style={{
+          backgroundColor: "#f5f5f5",
+          height: "58px",
+          boxShadow: "inset 0 -1px 0 0 #e5e5e5",
+        }}
       >
         <div className="container">
           <div

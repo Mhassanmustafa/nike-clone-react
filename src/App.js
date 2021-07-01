@@ -1,4 +1,5 @@
 import "./App.css";
+import FeelTheBeat from "./component/FeelTheBeat";
 import NikeHeader from "./component/Header";
 import HomeImage from "./component/HomeImage";
 import NewsHeader from "./component/NewsHeader";
@@ -11,8 +12,10 @@ function App() {
       <NikeHeader />
       <SearchMenu />
       <NewsHeader news={db.news} />
-      {/* <HomeImage /> */}
-      {/* <Product /> */}
+      <HomeImage data={db.homeTopDiv} />
+      <Product data={db.displayProducts} />
+      <FeelTheBeat />
+      {/* <HomeImage data={db.homeTopDiv} /> */}
     </div>
   );
 }
