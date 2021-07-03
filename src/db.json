@@ -152,5 +152,333 @@
         "description": "Women's Shoe"
       }
     ]
+  },
+  "beat": {
+    "title": "Feel the Beat",
+    "leftImageUrl": "https://static.nike.com/a/images/f_auto/dpr_1.0/h_814,c_limit/e587af29-f575-45b8-92c6-85fb1bea0610/nike-just-do-it.jpg",
+    "leftTitle": "Styles for Every Tempo",
+    "rightImageUrl": "https://static.nike.com/a/images/f_auto/dpr_1.0/h_814,c_limit/39fc6bd4-7d64-4846-8af7-164784e95fbb/nike-just-do-it.jpg",
+    "rightTitle": "Kicks to Move All Summer"
+  },
+  "trendings": {
+    "title": "Trending Now",
+    "products": [
+      {
+        "id": 1,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/15ff6f52-0265-452f-a897-86d56d9b65d3/air-max-plus-shoe-1vnW3k.png",
+        "title": "Nike Air Max Plus",
+        "price": "$210",
+        "description": "Women's Shoe"
+      },
+      {
+        "id": 2,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/1b29590e-4137-470e-88a8-435b204c84ee/sportswear-tech-fleece-joggers-h2Bmxs.png",
+        "title": "Nike Sportswear Tech Fleece",
+        "price": "$130",
+        "description": "Men's Joggers"
+      },
+      {
+        "id": 3,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/erzfadfpnzgkxt0gn2ya/air-max-plus-shoe-nnTrAZe0.png",
+        "title": "Nike Air Max Plus",
+        "price": "$210",
+        "description": "Men's Shoe"
+      },
+      {
+        "id": 4,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/5167afb6-44eb-4e16-b655-522688626d1b/air-force-1-pixel-shoe-txmVNP.png",
+        "title": "Nike Air Force 1 Pixel",
+        "price": "$135",
+        "description": "Women's Shoe"
+      },
+      {
+        "id": 5,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/4bbf1e4f-2343-4b01-870f-d1c41182facb/air-force-1-shadow-shoe-n7WF4B.png",
+        "title": "Nike Air Force 1 Shadow",
+        "price": "$145",
+        "description": "Women's Shoe"
+      },
+      {
+        "id": 6,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/e749c7f1-a07d-4d5a-bfb2-43c17ac538af/sportswear-fleece-hoodie-zZTKHB.png",
+        "title": "Nike Sportswear",
+        "price": "$80",
+        "description": "Women's Fleece Hoodie"
+      },
+      {
+        "id": 7,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/0ffcd7d2-9812-4fa3-967a-2c90537c0cbb/air-high-waisted-leggings-qK7d7K.png",
+        "title": "Nike Air",
+        "price": "$68",
+        "description": "Women's High-Waisted Leggings"
+      },
+      {
+        "id": 8,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/3d22f6ed-ad5b-4fcd-bb97-3fa0dae305f7/pegasus-trail-3-trail-running-shoe-kXQ1np.png",
+        "title": "Nike Pegasus Trail 3",
+        "price": "$170",
+        "description": "Women's Trail Running Shoe"
+      },
+      {
+        "id": 9,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/d9f1d9ee-a848-4a36-aab9-48b241078ebb/air-force-1-le-older-shoe-sCkTz9.png",
+        "title": "Nike Air Force 1 LE",
+        "price": "$95",
+        "description": "Older Kids' Shoe"
+      },
+      {
+        "id": 10,
+        "url": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/1aa3abc4-692e-466b-b985-570a178f25ef/air-force-1-older-shoe-1hqfHl.png",
+        "title": "Nike Air Force 1",
+        "price": "$95",
+        "description": "Older Kids' Shoe"
+      }
+    ]
+  },
+  "dontMiss": {
+    "heading": "Don't Miss",
+    "url": "https://static.nike.com/a/images/f_auto/dpr_1.0/w_1237,c_limit/d39c99b1-1c7e-4f99-a5d2-5ba100afc857/nike-just-do-it.jpg",
+    "title": "The One For You",
+    "description": "Get ready for whatever the day brings with the all-new Nike One Top",
+    "newLine": "collection, made for all the ways you move.",
+    "btn1": "Shop",
+    "btn2": "Shop Kid's"
+  },
+  "moreNike": {
+    "heading": "More Nike",
+    "url1": "https://static.nike.com/a/images/f_auto/dpr_1.0/w_402,c_limit/0bafb728-2ae2-416f-bb18-5935801c8071/nike-just-do-it.png",
+    "btn1Title": "Men's",
+    "url2": "https://static.nike.com/a/images/f_auto/dpr_1.0/w_402,c_limit/2c8754ce-6287-4e77-a198-1ad483fba257/nike-just-do-it.png",
+    "btn2Title": "Women's",
+    "url3": "https://static.nike.com/a/images/f_auto/dpr_1.0/w_402,c_limit/414db494-7ebc-4d53-bbff-58d50b380a24/nike-just-do-it.png",
+    "btn3Title": "Kid's"
+  },
+  "bottomList": [
+    {
+      "id": 1,
+      "heading": "Shoes",
+      "options": [
+        {
+          "id": 1,
+          "title": "Sneakers and Shoes"
+        },
+        {
+          "id": 2,
+          "title": "Football Boots"
+        },
+        {
+          "id": 3,
+          "title": "Running Shoes"
+        },
+        {
+          "id": 4,
+          "title": "Netball Sneakers"
+        },
+        {
+          "id": 5,
+          "title": "Golf Shoes"
+        },
+        {
+          "id": 6,
+          "title": "Skate Shoes"
+        },
+        {
+          "id": 7,
+          "title": "Basketball Shoes"
+        },
+        {
+          "id": 8,
+          "title": "Tennis Shoes"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "Clothing",
+      "options": [
+        {
+          "id": 1,
+          "title": "All Clothing"
+        },
+        {
+          "id": 2,
+          "title": "Tops"
+        },
+        {
+          "id": 3,
+          "title": "Trousers and Leggings"
+        },
+        {
+          "id": 4,
+          "title": "Tracksuits"
+        },
+        {
+          "id": 5,
+          "title": "Hoodies"
+        },
+        {
+          "id": 6,
+          "title": "Jackets"
+        },
+        {
+          "id": 7,
+          "title": "Kits and Jerseys"
+        },
+        {
+          "id": 8,
+          "title": "Yoga Trousers"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "heading": "Kids'",
+      "options": [
+        {
+          "id": 1,
+          "title": "Kids' Sneakers"
+        },
+        {
+          "id": 2,
+          "title": "Kids' Backpacks"
+        },
+        {
+          "id": 3,
+          "title": "Kids' Football Boots"
+        },
+        {
+          "id": 4,
+          "title": "Kids' Running Shoes"
+        },
+        {
+          "id": 5,
+          "title": "Kids' Jordan"
+        },
+        {
+          "id": 6,
+          "title": "Kids' Hoodies"
+        },
+        {
+          "id": 7,
+          "title": "Kids' T-Sirts"
+        },
+        {
+          "id": 8,
+          "title": "Kids' Tracksuits"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "heading": "Featured",
+      "options": [
+        {
+          "id": 1,
+          "title": "New Releases"
+        },
+        {
+          "id": 2,
+          "title": "Backpacks and Bags"
+        },
+        {
+          "id": 3,
+          "title": "Footballs"
+        },
+        {
+          "id": 4,
+          "title": "Goalkeeper Gloves"
+        },
+        {
+          "id": 5,
+          "title": "Black Sneakers"
+        },
+        {
+          "id": 6,
+          "title": "Black Football Boots"
+        },
+        {
+          "id": 7,
+          "title": "Plus Size"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "location": "Canada",
+    "rights": "© 2021 Nike, Inc. All Rights Reserved",
+    "sideHeadings": [
+      { "id": 1, "title": "FIND A STORE" },
+      { "id": 2, "title": "SIGN UP FOR EMAIL" },
+      { "id": 3, "title": "BECOME A MEMBER" },
+      { "id": 4, "title": "FEEDBACK" }
+    ],
+    "links": [
+      {
+        "id": 1,
+
+        "options": [
+          {
+            "id": 1,
+            "title": "GET HELP",
+            "heading": true
+          },
+          {
+            "id": 2,
+            "title": "Order Status"
+          },
+          {
+            "id": 3,
+            "title": "Shipping and Delivery"
+          },
+          {
+            "id": 4,
+            "title": "Returns"
+          },
+          {
+            "id": 5,
+            "title": "Payment Options"
+          },
+          {
+            "id": 6,
+            "title": "Contact Us"
+          }
+        ]
+      },
+      {
+        "id": 2,
+
+        "options": [
+          {
+            "id": 1,
+            "title": "ABOUT NIKE",
+            "heading": true
+          },
+          {
+            "id": 2,
+            "title": "News"
+          },
+          {
+            "id": 3,
+            "title": "Careers"
+          },
+          {
+            "id": 4,
+            "title": "Investors"
+          },
+          {
+            "id": 5,
+            "title": "Sustainability"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      { "id": 1, "title": "Guides" },
+      { "id": 2, "title": "Terms of Use" },
+      { "id": 3, "title": "Term of Sale" },
+      { "id": 4, "title": "Company Details" },
+      { "id": 5, "title": "Privacy & Cookie Policy" },
+      { "id": 6, "title": "Cookie Settings" }
+    ]
   }
 }

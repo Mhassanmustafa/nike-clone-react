@@ -23,8 +23,12 @@ class Product extends Component {
         <p className="carousel__title">{this.props.data.title}</p>
         <div className="carousel__container" ref={this.container_input}>
           {this.props.data.products && this.props.data.products.length > 0
-            ? this.props.data.products.map((value) => {
-                return <Item data={value} />;
+            ? this.props.data.products.map((value, i) => {
+                if (this.props.data.products.length === i + 1) {
+                  return <Item data={value} margin="6.7%" />;
+                } else {
+                  return <Item data={value} />;
+                }
               })
             : null}
 
@@ -32,7 +36,7 @@ class Product extends Component {
             <>
               <div
                 className="carousel__button_container"
-                onClick={() => this.handleScroll(-450)}
+                onClick={() => this.handleScroll(-419)}
               >
                 <ArrowBackIosIcon
                   className="carousel__button"
@@ -46,7 +50,7 @@ class Product extends Component {
               </div>
               <div
                 className="carousel__button_container carousel__button_container--right"
-                onClick={() => this.handleScroll(450)}
+                onClick={() => this.handleScroll(419)}
               >
                 <ArrowForwardIosIcon
                   className="carousel__button"

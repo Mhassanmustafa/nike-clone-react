@@ -11,16 +11,15 @@ class FeelTheBeat extends Component {
       <>
         <div className="container-fluid" style={{ backgroundColor: "white" }}>
           <div className="container title__container">
-            <h4>Feel The Beat</h4>
+            <h4>{this.props.data.title}</h4>
           </div>
         </div>
 
-        <div className="banner__container" style={{ padding: "0 34px" }}>
-          <section
-            id="main-banner"
-            className="banner"
-            style={{ marginTop: "20px" }}
-          >
+        <div
+          className="container-fluid  banner__container"
+          id="main___banner__container"
+        >
+          <section id="" className="">
             <div className="banner__item">
               <div className="banner__wrapper">
                 <div className="row">
@@ -29,30 +28,20 @@ class FeelTheBeat extends Component {
                     style={{ marginBottom: "20px" }}
                   >
                     <img
-                      style={{ height: "auto", width: "100%" }}
+                      className="beat__image"
                       data-qa="image-media-img"
                       alt="Nike. Just Do It"
-                      src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_608,c_limit/1818ced9-dcff-4026-b672-d68a8ed0f903/nike-just-do-it.jpg"
+                      style={{ marginLeft: "2px" }}
+                      src={this.props.data.leftImageUrl}
                     />
-                    <div
-                      style={{
-                        position: "absolute",
-                        bottom: "30px",
-                        left: "53px",
-                        fontSize: "23px",
-                      }}
-                    >
-                      <p
-                        style={{ color: "#ffffff", fontSize: "large" }}
-                        id="video_text"
-                      >
-                        Play for the Future Collection
+                    <div className="fig__cap__text__div">
+                      <p style={{ color: "#111" }} id="video_text">
+                        {this.props.data.leftTitle}
                       </p>
                       <div>
                         <a
                           href="https://www.nike.com/joinus"
-                          className="btn btn-primary"
-                          id="_button"
+                          className="btn btn-primary fig__button"
                         >
                           Shop
                         </a>
@@ -61,44 +50,27 @@ class FeelTheBeat extends Component {
                   </div>
                   <div className="col col-md-6 col-12">
                     <img
-                      style={{ height: "auto", width: "100%" }}
+                      className="beat__image"
+                      style={{ marginLeft: "-8px" }}
                       data-qa="image-media-img"
                       alt="Nike. Just Do It"
-                      src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_486,c_limit/28f44bed-a126-4dcf-9d4f-6255184d8b4c/nike-just-do-it.jpg"
+                      src={this.props.data.rightImageUrl}
                     />
-                    <div id="side_picture">
-                      <p style={{ color: "white", fontSize: "small" }}>
-                        Sophia Smith, Forward, U.S. Women's National Team
-                      </p>
-                    </div>
+
                     <div
-                      style={{
-                        position: "absolute",
-                        bottom: "53px",
-                        left: "53px",
-                        fontSize: "23px",
-                      }}
+                      className="fig__cap__text__div"
+                      style={{ bottom: "67.8px", left: "44px" }}
                     >
-                      <p
-                        style={{ color: "#ffffff", fontSize: "large" }}
-                        id="video_text"
-                      >
-                        Gear Up for Soccer
+                      <p style={{ color: "#111" }} id="video_text">
+                        {this.props.data.rightTitle}
                       </p>
                       <div>
                         <a
                           href="https://www.nike.com/joinus"
-                          className="btn btn-primary"
-                          id="_button"
+                          className="btn btn-primary fig__button"
+                          style={{ right: "46px" }}
                         >
                           Shop
-                        </a>
-                        <a
-                          href="https://www.nike.com/joinus"
-                          className="btn btn-primary"
-                          id="_button"
-                        >
-                          Explore
                         </a>
                       </div>
                     </div>

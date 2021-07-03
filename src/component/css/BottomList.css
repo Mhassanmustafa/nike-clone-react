@@ -4,13 +4,17 @@
   align-items: center;
   width: 100%;
   overflow-x: hidden;
+  margin-top: 4.4%;
 }
 
 .bottomList__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 94%;
+  align-items: flex-start;
+  width: 118.1%;
+  position: relative;
+  left: 26.4%;
+  text-align: start;
 }
 
 .bottomList__image {
@@ -55,8 +59,8 @@
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  width: 65%;
-  height: 250px;
+  width: 53%;
+  height: 246px;
   transition: all 0.3s;
   transition-delay: 0.5s;
 }
@@ -74,19 +78,22 @@
 
 .bottomList__column {
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
 }
 
 .bottomList__title {
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .bottomList__text {
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 14.3px;
+  position: relative;
   font-weight: 500;
-  opacity: 0.5;
+  opacity: 0.8;
+  top: 3%;
+  margin-bottom: -1.8px;
 }
 
 .bottomList__text:hover {
@@ -97,4 +104,5 @@
   opacity: 0;
   transition: all 0.3s;
   transition-delay: 0.2s;
+  margin-top: 30px;
 }

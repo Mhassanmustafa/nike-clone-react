@@ -1,0 +1,37 @@
+.title__container {
+  margin-left: 26px;
+  text-align: start;
+  position: relative;
+  bottom: 1.3rem;
+  left: 0px;
+}
+
+.div__width {
+  width: 138%;
+  position: relative;
+}
+
+.top__div {
+  background-color: "white";
+  margin-top: "-66px" !important;
+}
+
+.cards__buttons {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 28px;
+  padding-top: 9px;
+  position: relative;
+  border: none;
+  right: 38px;
+  top: 14px;
+  padding-bottom: 7px;
+}
+
+.more__text__div {
+  position: absolute;
+  bottom: 51px;
+  left: 21.6%;
+}

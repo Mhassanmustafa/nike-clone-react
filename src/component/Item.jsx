@@ -3,7 +3,7 @@ import "./css/Item.css";
 
 function Item(props) {
   return (
-    <div className="item">
+    <div className="item" style={props.margin ? { marginRight: "6.6%" } : null}>
       <img className="item__image" src={props.data.url}></img>
       <div className="item__description">
         <p className="item__title">

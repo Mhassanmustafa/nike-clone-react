@@ -1,0 +1,51 @@
+.title__container {
+  margin-left: 26px;
+  text-align: start;
+  position: relative;
+  bottom: 17px;
+  left: -1px;
+}
+
+.figure__caption {
+  position: relative;
+  bottom: 13.3rem;
+  /* font-size: 23px; */
+  /* right: -6.2%; */
+  left: 6.1%;
+}
+
+.figure_caption__title {
+  font-family: "nikeFont";
+  color: white;
+  font-size: 49.4px;
+  letter-spacing: -3.8px;
+  text-transform: uppercase;
+  margin-bottom: -12px;
+  text-align: start;
+}
+
+.figure__caption__summary {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: start;
+  line-height: 1.6;
+}
+
+.figure__caption__buttons {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: relative;
+  border: none;
+  right: 3px;
+  top: 7px;
+  margin-left: 6px;
+}
+
+.figure__caption__buttons__div {
+  text-align: left;
+}

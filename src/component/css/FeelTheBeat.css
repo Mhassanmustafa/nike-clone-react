@@ -5,3 +5,39 @@
   bottom: 17px;
   left: -1px;
 }
+
+#main___banner__container {
+  padding: 0px 54px;
+  position: relative;
+  top: -4px;
+  justify-content: center;
+  margin: unset;
+}
+
+.beat__image {
+  height: auto;
+  width: 100.8334%;
+  margin-left: 2px;
+}
+
+.fig__cap__text__div {
+  position: absolute;
+  bottom: 47px;
+  left: 53px;
+  font-size: 15.5px;
+  letter-spacing: 0.2px;
+}
+
+.fig__button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 5px;
+  padding-bottom: 9px;
+  position: relative;
+  border: none;
+  right: 36px;
+  top: 12px;
+}

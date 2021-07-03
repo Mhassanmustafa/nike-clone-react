@@ -19,8 +19,10 @@
   display: flex;
   justify-content: space-between;
   color: rgb(126, 126, 126);
-  width: 44%;
+  width: 43%;
   margin-top: 40px;
+  text-align: left;
+  font-family: "nikeFont";
 }
 
 .bottomMenu__column {
@@ -28,8 +30,8 @@
   flex-direction: column;
   list-style: none;
   padding: 0;
-  line-height: 26px;
-  font-size: 12px;
+  line-height: 24px;
+  font-size: 11px;
 }
 
 .bottomMenu__column li:hover {
@@ -38,7 +40,7 @@
 }
 
 .bottomMenu__title {
-  font-weight: 700;
+  font-weight: 100;
   color: white;
   text-transform: uppercase;
 }
@@ -47,8 +49,9 @@
   display: flex;
   justify-content: flex-end;
   color: black;
-  width: 50%;
-  margin-top: 40px;
+  width: 59%;
+  margin-top: 44px;
+  margin-right: 0rem;
 }
 
 .bottomMenu__app {
@@ -136,4 +139,9 @@
 .bottomMenu__navBar--guides {
   width: 78%;
   margin: 24px;
+}
+
+.svg {
+  width: 1.18em !important;
+  height: 1.18em !important;
 }

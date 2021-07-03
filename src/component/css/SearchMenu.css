@@ -3,10 +3,10 @@
   top: 1px;
   right: calc(100% - 1321.5px);
   */
-  /* position: absolute; */
+  position: relative;
   /* top: -6px; */
-  /* top: -10%;
-  right: 32.7%; */
+  top: 3%;
+  right: 0.3%;
   /* right: calc(100% - 907.9px); */
   /* right: calc(100% - 1015.9px); */
   justify-content: center;
@@ -75,10 +75,14 @@
   padding-left: 48px;
   border-radius: 50px;
   font-size: 16px;
-  width: 170px;
-  margin-right: 25px;
+  width: 180px;
+  margin-right: 26px;
   position: relative;
   bottom: 8px;
+}
+
+.menu__search-input::placeholder {
+  opacity: 0.5;
 }
 
 .menu__search-input:hover {
@@ -86,11 +90,17 @@
 }
 
 .menu__search-input:hover::placeholder {
-  opacity: 1;
+  opacity: 0.4;
 }
 
 @media only screen and (max-width: 1125px) {
   #search__Menu {
     width: calc(100% - 581px);
   }
+}
+
+.search__icon {
+  position: relative;
+  z-index: 1;
+  left: 2.16rem;
 }
