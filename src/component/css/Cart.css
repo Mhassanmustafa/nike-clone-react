@@ -1,0 +1,292 @@
+.cart__main {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  flex-wrap: wrap;
+  vertical-align: top;
+  margin: 0px auto 40px;
+  padding-top: 40px;
+}
+
+.main__row {
+  font-size: 0;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .css-bizkwr {
+    display: none;
+  }
+}
+
+.css-bizkwr {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.full__width {
+  width: 100%;
+}
+
+.cart__div {
+  max-width: 1100px;
+  padding-top: 8px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .div__title {
+    display: block;
+  }
+}
+
+.div__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  position: relative;
+  right: 7px;
+  top: -3px;
+}
+
+#summary__description {
+  position: relative;
+  left: 12px;
+  bottom: 1px;
+}
+
+.summary__left {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  right: 7px;
+  top: 3px;
+}
+
+.summary__right {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  right: 17px;
+  top: 3px;
+  text-align: end;
+}
+
+.estimate_left {
+  top: -1px !important;
+}
+.estimate_right {
+  top: -1px !important;
+}
+
+.summary__hr {
+  display: block;
+  border-width: 0px 0px 1px;
+  border-top-style: initial;
+  border-right-style: initial;
+  border-left-style: initial;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-left-color: initial;
+  border-image: initial;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(229, 229, 229);
+  margin-block: 0px;
+
+  position: relative;
+  left: -6px;
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+.total__left {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  right: 7px;
+  top: 16px;
+}
+
+.total__right {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  right: 17px;
+  top: 16px;
+  text-align: end;
+}
+
+.button__div {
+  display: block;
+  position: relative;
+  padding-top: 33px;
+  padding-bottom: 20px;
+  margin: 0px;
+  left: -11px;
+  box-shadow: none;
+}
+
+.button__row {
+  padding-left: 8px;
+  padding-right: 10px;
+}
+
+.checkOut__buttons {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 18px 24px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+
+.paypal__button {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 24px 24px;
+  border-radius: 30px;
+  box-shadow: rgb(229 229 229) 0px 1px 0px 0px inset,
+    rgb(229 229 229) -1px 0px 0px 0px inset,
+    rgb(229 229 229) 0px -1px 0px 0px inset,
+    rgb(229 229 229) 1px 0px 0px 0px inset;
+  background: rgb(245, 245, 245);
+  border: none;
+}
+
+.paypal__img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 1.7px;
+}
+
+.product__main__div {
+  box-shadow: rgb(229 229 229) 0px 0px 0px 0px inset,
+    rgb(229 229 229) 0px 0px 0px 0px inset,
+    rgb(229 229 229) 0px -1px 0px 0px inset,
+    rgb(229 229 229) 0px 0px 0px 0px inset;
+  padding: 13px 8px;
+  width: 100%;
+}
+.product__sub__div {
+  display: table;
+  position: relative;
+  width: 100%;
+}
+
+.product__Thumbnail {
+  width: 165px;
+  padding-right: 15px;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.product__image {
+  width: 100%;
+  background: rgb(245, 245, 245);
+}
+
+.product__detail {
+  position: relative;
+  display: block;
+  vertical-align: top;
+  min-height: 123px;
+  left: 15px;
+  top: 2px;
+}
+
+.product__name {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.shoes__description {
+  color: rgb(117, 117, 117);
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 1.8rem;
+  position: relative;
+  top: -14px;
+}
+
+.drop__down__div {
+  display: table;
+}
+
+.first__cell {
+  display: table-cell;
+}
+.dropdown__label {
+  color: rgb(117, 117, 117);
+}
+
+.drop__down {
+  position: relative;
+  background: rgb(255, 255, 255);
+  display: inline-block;
+  min-width: 52px;
+  vertical-align: bottom;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.drop__down--icon {
+  font-family: nike-glyphs;
+  display: inline-block;
+  font-size: inherit;
+  line-height: inherit;
+  vertical-align: top;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 16px;
+  padding-right: 12px;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  color: rgb(117, 117, 117);
+  z-index: -1;
+}
+
+.drop__down__select {
+  padding-left: 10px;
+  height: 100%;
+  width: 100%;
+  padding-right: 32px;
+  min-height: inherit;
+  font-size: 14px;
+  color: rgb(117, 117, 117);
+  background: none;
+  border: 0px;
+  border-radius: 2px;
+  appearance: none;
+}

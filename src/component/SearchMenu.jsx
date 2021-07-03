@@ -70,7 +70,7 @@ class SearchMenu extends Component {
               <div id="search__header__icon">
                 {/* <Search className="" /> */}
                 <svg
-                  class="pre-search-input-icon"
+                  class="pre-search-input-icon search__icon"
                   fill="#111"
                   height="24px"
                   width="24px"
