@@ -4,7 +4,7 @@
   text-align: left;
   flex-wrap: wrap;
   vertical-align: top;
-  margin: 0px auto 40px;
+  margin: 0px auto 26px;
   padding-top: 40px;
 }
 
@@ -188,6 +188,7 @@
     rgb(229 229 229) 0px -1px 0px 0px inset,
     rgb(229 229 229) 0px 0px 0px 0px inset;
   padding: 13px 8px;
+  padding-bottom: 11px;
   width: 100%;
 }
 .product__sub__div {
@@ -241,9 +242,12 @@
 
 .first__cell {
   display: table-cell;
+  position: relative;
+  bottom: 12px;
 }
 .dropdown__label {
   color: rgb(117, 117, 117);
+  font-size: 16px;
 }
 
 .drop__down {
@@ -257,26 +261,31 @@
 }
 
 .drop__down--icon {
-  font-family: nike-glyphs;
+  font-family: "nike-glyphs";
   display: inline-block;
-  font-size: inherit;
+  font-size: 16px;
   line-height: inherit;
   vertical-align: top;
   font-style: normal;
+  font-feature-settings: normal;
   font-variant: normal;
   font-weight: 400;
   text-decoration: none;
   text-transform: none;
   -webkit-font-smoothing: antialiased;
-  padding-left: 16px;
+  padding-left: 12px;
   padding-right: 12px;
   position: absolute;
-  right: 0px;
+  right: -8px;
   text-align: right;
   color: rgb(117, 117, 117);
   z-index: -1;
+  top: -2px;
 }
 
+.drop__down--icon::before {
+  content: "";
+}
 .drop__down__select {
   padding-left: 10px;
   height: 100%;
@@ -288,5 +297,127 @@
   background: none;
   border: 0px;
   border-radius: 2px;
+  -webkit-appearance: none;
   appearance: none;
+  border: none;
+  outline: none;
+}
+
+.product__link {
+  text-decoration: none !important;
+  color: #111 !important;
+  cursor: pointer !important;
+}
+
+.drop__div {
+  position: relative;
+  background: rgb(255, 255, 255);
+  display: inline-block;
+  min-width: 52px;
+  vertical-align: bottom;
+  overflow: hidden;
+  z-index: 0;
+  bottom: 9px;
+}
+
+.button__div__under__product {
+  margin-top: 10px;
+  padding: 1px;
+}
+
+.button__list {
+  margin-right: 16px;
+  display: inline-block;
+}
+
+.list__button {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  text-align: center;
+  text-decoration: none;
+  background: 0px 0px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  box-shadow: 0px -1px 0px 0px inset;
+  line-height: 1.5;
+  padding: 0px 0px;
+  color: rgb(117, 117, 117);
+  outline: 0;
+  border: none;
+}
+
+.button__ul {
+  list-style: none;
+  font-size: 16px;
+  padding-left: 14px;
+}
+
+.singlePrice {
+  text-align: right;
+}
+
+.price {
+  color: rgb(17, 17, 17);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  position: relative;
+  left: 91px;
+}
+
+.know__more {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  left: 8px;
+  bottom: 2px;
+}
+.question {
+  font-family: nike-glyphs;
+  display: inline-block;
+  vertical-align: top;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.question::before {
+  content: "";
+}
+
+.details {
+  margin-bottom: 16px;
+}
+
+.details__div {
+  padding-top: 55px;
+  margin-bottom: 12px;
+  max-width: 1100px;
+  margin-left: -22px;
+}
+
+.fav {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 24px;
+}
+
+.Join__link {
+  color: rgb(88, 88, 88);
+  box-shadow: 0px -1px 0px 0px inset;
+}
+
+.para__div {
+  font-size: 16px;
+  margin-top: -6px;
 }

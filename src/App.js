@@ -11,16 +11,18 @@ import BottomList from "./component/BottomList";
 import Footer from "./component/Footer";
 import Cart from "./component/Cart";
 import db from "./db.json";
+import ProductDetails from "./component/ProductDetails";
 function App() {
   return (
     <div className="App">
       <NikeHeader />
       <SearchMenu />
-      {/* <NewsHeader news={db.news} /> */}
+      <NewsHeader news={db.news} />
       {/* <HomeImage data={db.homeTopDiv} /> */}
       {/* <Product data={db.displayProducts} /> */}
       {/* <FeelTheBeat data={db.beat} /> */}
-      <Cart />
+      {/* <Cart /> */}
+      <ProductDetails />
       <Product data={db.trendings} />
       {/* <DontMiss data={db.dontMiss} /> */}
       {/* <MoreNike data={db.moreNike} /> */}
