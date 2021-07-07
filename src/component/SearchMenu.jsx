@@ -85,7 +85,7 @@ class SearchMenu extends Component {
                 />
 
                 <Heart />
-                <Basket />
+                <Basket {...this.props} />
               </div>
             </div>
           </nav>

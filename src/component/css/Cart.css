@@ -421,3 +421,14 @@
   font-size: 16px;
   margin-top: -6px;
 }
+
+.no__item {
+  margin-left: -22px;
+  margin-top: -9px;
+}
+
+.button___disable {
+  background: rgb(245, 245, 245);
+  color: rgb(204, 204, 204);
+  cursor: default;
+}
