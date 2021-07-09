@@ -9,16 +9,29 @@ class Cart extends Component {
       delivery: 10.95,
       total: 0,
       quantity: 0,
+      width: 0,
+      height: 0,
     };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
   componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener("resize", this.updateWindowDimensions);
     let cartData = JSON.parse(localStorage.getItem("cart"));
 
     if (cartData) {
       this.setState({ cartData: cartData });
       this.changePrice(cartData);
     }
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
   }
 
   handleDataRemove = (e) => {
@@ -81,8 +94,16 @@ class Cart extends Component {
         <div className="container-fluid">
           <main className="cart__main">
             <div className="row main__row full__width cart__div">
-              <div className="col col-md-8 ">
-                <h4 class="div__title">Bag</h4>
+              <div className="col col-md-8 mobile__bag">
+                <h4 class="div__title mobile__bag__title">Bag</h4>
+                {/* {this.state.width <= 450 ? (
+                  <>
+                    <div className="col col-md-12 mobile__item">
+                      0 Items |
+                      <span className="mobile__price__span">$0.00</span>
+                    </div>
+                  </>
+                ) : null} */}
                 {!this.state.cartData.items ||
                 this.state.cartData.items.length <= 0 ? (
                   <>
