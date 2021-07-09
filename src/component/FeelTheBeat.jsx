@@ -4,7 +4,21 @@ import "./css/FeelTheBeat.css";
 class FeelTheBeat extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { width: 0, height: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener("resize", this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
   }
   render() {
     return (
@@ -28,14 +42,18 @@ class FeelTheBeat extends Component {
                     style={{ marginBottom: "20px" }}
                   >
                     <img
-                      className="beat__image"
+                      className="beat__image "
                       data-qa="image-media-img"
                       alt="Nike. Just Do It"
                       style={{ marginLeft: "2px" }}
                       src={this.props.data.leftImageUrl}
                     />
                     <div className="fig__cap__text__div">
-                      <p style={{ color: "#111" }} id="video_text">
+                      <p
+                        style={{ color: "#111" }}
+                        className="text__fig"
+                        id="video_text"
+                      >
                         {this.props.data.leftTitle}
                       </p>
                       <div>
@@ -51,7 +69,9 @@ class FeelTheBeat extends Component {
                   <div className="col col-md-6 col-12">
                     <img
                       className="beat__image"
-                      style={{ marginLeft: "-8px" }}
+                      style={
+                        this.state.width <= 450 ? null : { marginLeft: "-8px" }
+                      }
                       data-qa="image-media-img"
                       alt="Nike. Just Do It"
                       src={this.props.data.rightImageUrl}
@@ -59,12 +79,20 @@ class FeelTheBeat extends Component {
 
                     <div
                       className="fig__cap__text__div"
-                      style={{ bottom: "67.8px", left: "44px" }}
+                      style={
+                        this.state.width <= 450
+                          ? { bottom: "43.8px", left: "39px" }
+                          : { bottom: "67.8px", left: "44px" }
+                      }
                     >
-                      <p style={{ color: "#111" }} id="video_text">
+                      <p
+                        style={{ color: "#111" }}
+                        className="text__fig"
+                        id="video_text"
+                      >
                         {this.props.data.rightTitle}
                       </p>
-                      <div>
+                      <div className="fig__b">
                         <a
                           href="https://www.nike.com/joinus"
                           className="btn btn-primary fig__button"

@@ -104,3 +104,25 @@
   z-index: 1;
   left: 2.16rem;
 }
+
+.toggle__icon {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .search__icon {
+    position: relative;
+    z-index: 1;
+    left: 2.16rem;
+  }
+  #search_header {
+    padding-bottom: 6px;
+  }
+
+  .toggle__icon {
+    display: flex;
+    position: relative;
+    left: 18rem;
+    top: 0.2rem;
+  }
+}

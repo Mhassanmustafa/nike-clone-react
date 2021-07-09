@@ -359,10 +359,11 @@ class Cart extends Component {
                   </div>
                   <div className="col col-md-12">
                     <p className="para__div">
-                      Want to view your favourites?
+                      Want to view your favourites?{" "}
                       <a href="#" className="Join__link">
                         Join us
                       </a>{" "}
+                      or{" "}
                       <a href="#" className="Join__link">
                         Sign in
                       </a>

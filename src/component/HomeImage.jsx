@@ -14,8 +14,16 @@ class HomeImage extends Component {
           <div className="banner__container">
             <div className="banner__item">
               <div className="banner__wrapper">
+                <div id="mobile__image">
+                  <img
+                    className="img-fluid"
+                    style={{ height: "499px", objectFit: "cover" }}
+                    src="https://static.nike.com/a/images/f_auto/w_1536,c_limit/1c697053-a01c-4d56-9aec-863812ff29f9/image.jpg"
+                    alt=""
+                  />
+                </div>
                 <img
-                  className="img-fluid"
+                  className="img-fluid d-image"
                   id="banner__Image"
                   src={this.props.data.imageUrl}
                 />

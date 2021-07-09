@@ -347,7 +347,8 @@
     "description": "Get ready for whatever the day brings with the all-new Nike One Top",
     "newLine": "collection, made for all the ways you move.",
     "btn1": "Shop",
-    "btn2": "Shop Kid's"
+    "btn2": "Shop Kid's",
+    "mobileImageUrl": "https://static.nike.com/a/images/f_auto/dpr_3.5/h_500,c_limit/fac79ac8-d11a-4483-8b7b-2fa8694eb1df/nike-just-do-it.jpg"
   },
   "moreNike": {
     "heading": "More Nike",

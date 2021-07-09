@@ -145,3 +145,60 @@
   width: 1.18em !important;
   height: 1.18em !important;
 }
+
+@media only screen and (max-width: 450px) {
+  .bottomMenu__container-top {
+    display: unset;
+    margin-top: 38px;
+    width: 92%;
+  }
+
+  .bottomMenu__navBar {
+    display: unset;
+    width: 100%;
+
+    overflow-x: hidden;
+  }
+
+  .bottomMenu__column {
+    display: unset;
+    flex-direction: unset;
+    list-style: none;
+    padding: 0;
+    line-height: 28px;
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .bottomMenu__social-apps {
+    width: 100%;
+    margin-top: 17px;
+    text-align: left;
+    margin-left: -166px;
+  }
+
+  .bottomMenu__container-bottom {
+    display: unset;
+  }
+  .bottomMenu__location {
+    display: unset;
+  }
+
+  .bottomMenu__navBar-bottom {
+    display: unset;
+    justify-content: left;
+
+    text-align: left;
+    margin-left: -46px;
+    margin-right: unset;
+  }
+
+  .bottomMenu__text {
+    text-align: left;
+    margin-left: 8px;
+  }
+
+  .bottomMenu__title {
+    margin-top: 10px;
+  }
+}

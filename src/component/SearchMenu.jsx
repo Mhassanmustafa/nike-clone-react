@@ -5,6 +5,7 @@ import "./css/SearchMenu.css";
 import Basket from "./svgs/Basket";
 import Heart from "./svgs/Heart";
 import Search from "./svgs/Search";
+import NavBarButton from "./svgs/NavBarButton";
 
 class SearchMenu extends Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class SearchMenu extends Component {
   }
   render() {
     return (
-      <header>
+      <header id="search_header">
         <div className="logoContainer d-flex justify-content-center align-items-center">
           <div className="logo">
             <a
@@ -41,6 +42,16 @@ class SearchMenu extends Component {
             className="navbar navbar-expand-lg navbar-light"
             style={{ width: "100%" }}
           >
+            {/* <svg
+              class=" ml-auto toggle__icon"
+              data-target="t"
+              fill="#111"
+              height="24px"
+              width="24px"
+              viewBox="0 0 24 24"
+            >
+              <path d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.39zM11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7z"></path>
+            </svg> */}
             <button
               className="navbar-toggler ml-auto"
               type="button"
@@ -50,8 +61,9 @@ class SearchMenu extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon" />
+              <NavBarButton />
             </button>
+
             <div
               className="collapse navbar-collapse"
               id="navbarSupportedContent"

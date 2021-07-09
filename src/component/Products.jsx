@@ -25,9 +25,9 @@ class Product extends Component {
           {this.props.data.products && this.props.data.products.length > 0
             ? this.props.data.products.map((value, i) => {
                 if (this.props.data.products.length === i + 1) {
-                  return <Item data={value} margin="6.7%" />;
+                  return <Item data={value} flag={true} margin="6.7%" />;
                 } else {
-                  return <Item data={value} />;
+                  return <Item data={value} flag={i >= 1 ? true : false} />;
                 }
               })
             : null}

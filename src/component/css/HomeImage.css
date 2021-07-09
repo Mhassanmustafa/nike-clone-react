@@ -39,3 +39,48 @@
 .hasText {
   padding: 2%;
 }
+
+#mobile__image {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  #mobile__image {
+    width: 100%;
+
+    background-size: initial;
+    display: block;
+    height: 498px;
+  }
+  .d-image {
+    display: none;
+  }
+
+  .banner__container {
+    justify-content: center;
+    margin: 0 5px;
+  }
+
+  .figure__Caption {
+    margin-top: 8.7%;
+    text-align: left;
+    width: 86%;
+  }
+
+  .hasText {
+    position: relative;
+    top: -3px;
+    right: 6px;
+  }
+
+  .caption__button {
+    margin-right: 2.6%;
+  }
+
+  .display-2 {
+    line-height: 0.833333;
+    position: relative;
+    top: -12px;
+    left: -2px;
+  }
+}

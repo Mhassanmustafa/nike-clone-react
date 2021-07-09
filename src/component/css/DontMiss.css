@@ -49,3 +49,52 @@
 .figure__caption__buttons__div {
   text-align: left;
 }
+.mobile___image {
+  display: none;
+}
+@media only screen and (max-width: 450px) {
+  .desktop__image {
+    display: none;
+  }
+
+  .mobile___image {
+    display: block;
+    object-fit: cover;
+    height: 31.2rem;
+  }
+
+  .mobile__banner {
+    padding-left: 17px;
+    padding-right: 14px;
+    position: relative;
+    bottom: 122px;
+  }
+
+  .figure__caption {
+    bottom: 0rem;
+
+    left: 0.1%;
+    top: 13px;
+  }
+
+  .figure_caption__title {
+    color: black;
+    font-size: 48px;
+    line-height: 0.9;
+    text-transform: uppercase;
+  }
+
+  .figure__caption__summary {
+    margin-top: 14px;
+    color: black;
+  }
+
+  .figure__caption__buttons {
+    background: black;
+    color: white;
+  }
+
+  .mobile__banner__wrapper {
+    height: 46rem;
+  }
+}

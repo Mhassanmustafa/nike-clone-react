@@ -53,3 +53,18 @@
 .item__price {
   margin-right: 1.1%;
 }
+
+@media only screen and (max-width: 450px) {
+  .item {
+    margin-left: 2.8%;
+
+    width: 82.6%;
+    left: 2.8%;
+    top: 0px;
+  }
+
+  .item__image {
+    width: 101%;
+    height: auto;
+  }
+}

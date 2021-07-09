@@ -41,3 +41,41 @@
   right: 36px;
   top: 12px;
 }
+
+@media only screen and (max-width: 450px) {
+  .title__container {
+    margin-left: -12px !important;
+    bottom: 5.6rem !important;
+    left: 0px !important;
+  }
+
+  #main___banner__container {
+    padding: 0px 15px;
+    top: -73px;
+    left: 5px;
+
+    margin: unset;
+    height: auto;
+    width: 98%;
+  }
+  .beat__image {
+    width: 100.8334%;
+    height: 31.3rem;
+
+    object-fit: cover;
+  }
+
+  .fig__cap__text__div {
+    left: 37px;
+  }
+
+  .text__fig {
+    position: relative;
+    font-size: 16px !important;
+  }
+
+  .fig__b {
+    position: relative;
+    left: -5px;
+  }
+}

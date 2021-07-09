@@ -3,14 +3,32 @@ import "./css/MoreNike.css";
 class MoreNike extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { width: 0, height: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener("resize", this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
   }
   render() {
     return (
       <>
         <div
           className="container-fluid top__div"
-          style={{ marginTop: "-66px" }}
+          style={
+            this.state.width <= 450
+              ? { marginTop: "30px", marginLeft: "4px" }
+              : { marginTop: "-66px" }
+          }
         >
           <div className="container title__container">
             <h4>{this.props.data.heading}</h4>
@@ -27,7 +45,11 @@ class MoreNike extends Component {
                 <div className="row div__width">
                   <div
                     className="col col-md-3 col-12"
-                    style={{ marginBottom: "20px" }}
+                    style={
+                      this.state.width <= 450
+                        ? { marginBottom: "13px" }
+                        : { marginBottom: "20px" }
+                    }
                   >
                     <img
                       className="beat__image"
@@ -47,7 +69,12 @@ class MoreNike extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="col col-md-3 col-12">
+                  <div
+                    className="col col-md-3 col-12"
+                    style={
+                      this.state.width <= 450 ? { marginBottom: "13px" } : null
+                    }
+                  >
                     <img
                       className="beat__image"
                       style={{ marginLeft: "-15px" }}
